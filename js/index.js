@@ -124,13 +124,13 @@ $(function () {
         var num = Math.floor(Math.random() * 6 + 1);
         $('.tc-dx.one').fadeIn();
         $('.hyNum').text(num);
-        $('#biBtn').hide();
-        $('#hyName').text('好友的名字');
         $('.panzi.r img').attr('src',"images/" + num + ".png");
         showMask();
     });
     //点击抽选大小按钮
     $('#cdxBtn').on('click',function () {
+        $('#biBtn').hide();
+        $('#hyName').text('好友的名字');
         var timer = window.setInterval(function () {
             $('.small.box').toggleClass('act');
             $('.big.box').toggleClass('act');
