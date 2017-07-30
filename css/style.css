@@ -1,0 +1,733 @@
+header .firTop{
+    width: 37.5rem;
+    height: 17.05rem;
+    background: url("../images/firBg_01.png") center no-repeat;
+    background-size: cover;
+}
+section .firMiddle{
+    width: 37.5rem;
+    height: 32.25rem;
+    background: url("../images/firBg_02.png") center no-repeat;
+    background-size: cover;
+}
+footer .firFooter{
+    box-sizing: border-box;
+    padding-top: 1.55rem;
+    width: 37.5rem;
+    height: 11.65rem;
+    background: url("../images/firBg_03.png") center no-repeat;
+    background-size: cover;
+}
+footer .firFooter div{
+    margin: 0 auto;
+    width: 25.4rem;
+    height: 5.9rem;
+    background: url("../images/btn1-1.png") center no-repeat;
+    background-size: cover;
+}
+/*主页样式*/
+header .secTop{
+    position: relative;
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 15.45rem;
+    background: url("../images/secBg_01.png") center no-repeat;
+    background-size: cover;
+}
+header .secTop .hdgz{
+    float: right;
+    margin: 1rem 0.9rem 0 0;
+    width: 4.8rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+header .secTop .fuhao{
+    position: absolute;
+    left: 32.5rem;
+    top: 13.35rem;
+    width: 4.8rem;
+    height: 4.85rem;
+    background: url("../images/fuhao.png") center no-repeat;
+    background-size: cover;
+    z-index: 11;
+}
+section .main{
+    position: relative;
+    box-sizing: border-box;
+    width: 37.5rem;
+    height: 23.9rem;
+    background: url("../images/secBg_02.png") center no-repeat;
+    background-size: cover;
+}
+section .main .shaizi{
+    position: absolute;
+    top: 1.3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 11.15rem;
+    height: 13.65rem;
+    background: url("../images/sz.png") no-repeat;
+    background-size: cover;
+}
+section .main .sz-0{
+    background-position: -103.2rem 0;
+}
+section .main .sz-1{
+    background-position: -17.2rem 0;
+}
+section .main .sz-2{
+    background-position: -86rem 0;
+}
+section .main .sz-3{
+    background-position: -68.8rem 0;
+}
+section .main .sz-4{
+    background-position: -51.6rem 0;
+}
+section .main .sz-5{
+    background-position: -34.4rem 0;
+}
+section .main .sz-6{
+    background-position: 0 0;
+}
+section .main .sz-t{
+    background-position: -120.25rem 0;
+}
+section .main .sz-s{
+    background-position: -137.4rem 0;
+}
+section .main .sz-e{
+    background-position: -154.7rem 0;
+}
+section .main .title{
+    margin: 0 auto;
+    width: 15rem;
+    text-align: center;
+}
+section .main .title p{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+section .main .title p span{
+    font-size: 1.4rem;
+    color: #ffe866;
+}
+section .main .userMessage{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+}
+section .main .userMessage div{
+    box-sizing: border-box;
+    border-radius: 0 3rem 3rem 0;
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+section .main .userMessage .userPhoto{
+    padding: 0.225rem 0 0.225rem 1.15rem;
+    width: 6.6rem;
+    height: 4rem;
+}
+section .main .userMessage .userName{
+    margin: 0.5rem 0;
+    padding-left: 0.4rem;
+    width: 9.1rem;
+    height: 3rem;
+}
+section .main .userMessage .userNum{
+    width: 10.6rem;
+    height: 3rem;
+}
+section .main .userMessage .userPhoto img{
+    display: inline-block;
+    width: 3.55rem;
+    height: 3.55rem;
+}
+section .main .userMessage .userName p{
+    font-size: 1.1rem;
+    line-height: 3rem;
+    color: #324eea;
+}
+section .main .userMessage .userNum p{
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #2e50ea;
+}
+section .main .userMessage .userNum p span{
+    color: #f72a30;
+}
+section .main .wanfa{
+    position: absolute;
+    top: 4.65rem;
+    right: 7.3rem;
+    width: 4.7rem;
+    height: 4.15rem;
+    background: url("../images/wanfa.png") center no-repeat;
+    background-size: cover;
+}
+section .main .btn2-1{
+    position: absolute;
+    bottom: 3.05rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 17.55rem;
+    height: 4.8rem;
+}
+section .main .btn2-1 span{
+    position: absolute;
+    width: 17.55rem;
+    height: 4.8rem;
+    background: url("../images/btn2-1Bg.png") center no-repeat;
+    background-size: cover;
+    z-index: 11;
+}
+section .main .btn2-1 div{
+    position: absolute;
+    bottom: 0.35rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 16.45rem;
+    height: 3.95rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3.95rem;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #2253eb;
+}
+section .main .btn2-1.default span{
+    background: url("../images/btn2-1BgAct.png") center no-repeat;
+    background-size: cover;
+}
+section .main .btn2-1.default div{
+    color: #8d8d8d;
+    background-color: #eaeaea;
+}
+section .main .text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+section .main .text p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #2652eb;
+}
+section .main .text p span{
+    font-size: 1.5rem;
+    color: #f1000e;
+}
+section .main .text p i{
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #f1000e;
+}
+footer .wrap{
+    position: relative;
+    width: 37.5rem;
+    height: 21.6rem;
+    background-color: #fdc033;
+}
+footer .wrap .zhuangshiL,footer .wrap .zhuangshiR{
+    position: absolute;
+    top: 1.9rem;
+    height: 2.65rem;
+}
+footer .wrap .zhuangshiL{
+    left: 0;
+    width: 2.1rem;
+    background: url("../images/zhuangshiL.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrap .zhuangshiR{
+    right: 0;
+    width: 2.2rem;
+    background: url("../images/zhuangshiR.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrap .boxWrap{
+    margin: 0 auto;
+    padding: 0.75rem 0;
+    box-sizing: border-box;
+    width: 33.2rem;
+    height: 21.15rem;
+    border-radius: 1rem;
+    background-color: #ffaa16;
+}
+footer .wrap .boxWrap .boxInner{
+    margin: 0 auto;
+    padding: 0.35rem 0;
+    box-sizing: border-box;
+    width: 31.8rem;
+    height: 19.65rem;
+    border-radius: 0.8rem;
+    background-color: #ffffff;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 31.15rem;
+    height: 19rem;
+    border: 3px dashed #fdc033;
+    border-radius: 1rem;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle{
+    position: relative;
+    margin: 1rem auto;
+    width: 16.3rem;
+    text-align: center;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle p{
+    font-size: 1.5rem;
+    color: #2351d7;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 4.25rem;
+    height: 2px;
+    background-color: #2351d7;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle span:first-child{
+    left: 0;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle span:nth-child(3){
+    right: 0;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle div:last-child{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -6.55rem;
+    margin: auto;
+    height: 1.4rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #2351d7;
+    color: #2351d7;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-left: 1.7rem;
+    width: 100%;
+    height: 4.15rem;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li:nth-child(2){
+    margin: 0.6rem 0;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div{
+    float: left;
+    box-sizing: border-box;
+    margin-right: 1rem;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div.photo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(2),footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(4){
+    box-sizing: border-box;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #414ae9;
+    border: 2px dashed #8e92f2;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(3){
+    width: 5.65rem;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(3) span{
+    display: block;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(3) .btn2-2{
+    display: none;
+    width: 5.65rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #414ae9;
+    background: url("../images/btn2-2Bg.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(5){
+    margin-right: 2.4rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    color: #666666;
+    background-color: #dfdfdf;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(6){
+    height: 3rem;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(6) span{
+    display: block;
+    width: 3.9rem;
+    height: 1.95rem;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.95rem;
+    color: #ffffff;
+    background: url("../images/btn2-3Bg.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(6) p{
+    font-size: 1rem;
+    text-align: center;
+    color: #666666;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(6).active span{
+    background: url("../images/btn2-3BgAct.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(6).active p{
+    color: #245cec;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(3) .result.top{
+    margin-left: 1.3rem;
+    width: 3.05rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #2c50ea;
+    background: url("../images/resultBg.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list li div:nth-child(3) .result.bottom{
+    margin-left: 0.95rem;
+    width: 3.65rem;
+    height: 1.05rem;
+    text-align: center;
+    line-height: 1.05rem;
+    font-size: 0.85rem;
+    color: #ffffff;
+    background-color: #245cec;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list div.firList span.btn2-2{
+    display: block;
+}
+footer .wrap .boxWrap .boxInner .boxInner-inner .list div.firList .result{
+    display: none;
+}
+/*遮罩层*/
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+.tc.hdgz{
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    width: 29rem;
+    height: 36.7rem;
+    border-radius: 0.5rem;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.tc .tcClose{
+    position: absolute;
+    top: -7.1rem;
+    right: 1.75rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    background: url("../images/tcCloseBg.png") center no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+.tc .tcLine{
+    position: absolute;
+    right: 3.2rem;
+    top: -4.1rem;
+    width: 2px;
+    height: 4.1rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc .tcBg{
+    position: absolute;
+    top: -10rem;
+    left: -4.225rem;
+    width: 37.45rem;
+    height: 24.5rem;
+    background: url("../images/tc-hdgz.png") center no-repeat;
+    background-size: cover;
+    z-index: 990;
+}
+.tc .tcTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    color: #ffffff;
+    background-color: #304fea;
+    z-index: 999;
+}
+.tc .text{
+    box-sizing: border-box;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    padding: 0.75rem 2.5rem;
+    overflow: scroll;
+    width: 29rem;
+    height: 26.75rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc .text p{
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+.tc .tcBtn-1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 1.2rem;
+    width: 8.8rem;
+    height: 3.15rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 3.15rem;
+    color: #ffffff;
+    background: url("../images/tcBtnBg-blue.png") center no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+.tc.tc2{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 20%;
+    box-sizing: border-box;
+    margin: auto;
+    width: 26.5rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.tc.tc2 .tcClose{
+    right: 0.5rem;
+}
+.tc.tc2 .tcLine{
+    right: 1.9rem;
+}
+.tc.tc2 .tcBtn-1{
+    bottom: 2rem;
+}
+.tc.tc2 .tcText{
+    position: absolute;
+    top: 4rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 16rem;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #000000;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc.tc-wanfa .tcText{
+    padding: 2rem 1.5rem;
+    line-height: 2.5rem;
+}
+.tc.tc-wanfa{
+    display: none;
+}
+.tc.tc-yq .tcText{
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 4rem;
+    letter-spacing: 5px;
+}
+.tc .tcText p span{
+    font-size: 2rem;
+    color: #ff1e1e;
+}
+.tc.tc-yq .tcBtn-1.yq{
+    width: 12.5rem;
+    background: url("../images/tc-yqBtn.png") center no-repeat;
+    background-size: cover;
+}
+.tc .people{
+    position: absolute;
+    top: -9.7rem;
+    left: 1.4rem;
+    z-index: 998;
+    width: 20.85rem;
+    height: 9.7rem;
+    background: url("../images/yqPeo.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-yq{
+    display: none;
+    top: 25%;
+}
+.tc.tc-dx{
+    top: 25%;
+}
+.tc.tc-dx .tcText{
+    padding: 0.5rem 5.25rem;
+    text-align: center;
+    line-height: 3rem;
+}
+.tc.tc-dx .tcText .box{
+    float: left;
+    width: 4.4rem;
+    height: 4.4rem;
+    border: 2px dashed #304fea;
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 4.4rem;
+    color: #1234df;
+}
+.tc.tc-dx .tcText .box.act{
+    color: #ffffff;
+    background-color: #304fea;
+}
+.tc.tc-dx .tcText .small{
+    margin-right: 6.8rem;
+}
+.tc.tc-dx .people{
+    top: -10.1rem;
+    height: 10.1rem;
+    background: url("../images/dxPeo_01.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-dx.one{
+    display: none;
+}
+.tc.tc-dx.two{
+    display: none;
+}
+.tc.tc2 .tcText i{
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
+    color: #304fea;
+}
+.tc.tc2 .dxBtnBox{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20.05rem;
+    bottom: 2rem;
+    z-index: 999;
+}
+.tc.tc2 .dxBtnBox span{
+    display: inline-block;
+    width: 8.8rem;
+    height: 3.15rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 3.15rem;
+    color: #ffffff;
+}
+.tc.tc2 .dxBtnBox span:first-child{
+    margin-right: 2.3rem;
+    background: url("../images/tcBtnBg-blue.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc2 .dxBtnBox span:last-child{
+    background: url("../images/dxBtnBg-red.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-ll .tcText{
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.tc.tc-ll .people{
+    top: -10.1rem;
+    height: 10.1rem;
+    background: url("../images/llPeo.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-ll{
+    top: 25%;
+}
+.tc.tc-ll.one{
+    display: none;
+}
+.tc.tc-ll.two{
+    display: none;
+}
+.tc.tc-ll.two .tcBtn-1.ll{
+    background: url("../images/dxBtnBg-red.png") center no-repeat;
+    background-size: cover;
+}
+
+.fenxiang{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.7rem;
+    width: 22.5rem;
+    height: 35rem;
+    text-align: center;
+    z-index: 999;
+}
+.fenxiang div{
+    position: absolute;
+    top: 0;
+    left: 2.5rem;
+    width: 22.7rem;
+    height: 29.4rem;
+    background: url("../images/fenxiang.png") center no-repeat;
+    background-size: cover;
+}
+.fenxiang p{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.fenxiang p span{
+    font-size: 1.4rem;
+    color: #f0c24d;
+}

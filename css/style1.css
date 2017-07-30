@@ -1,0 +1,312 @@
+header{
+    position: relative;
+    width: 37.5rem;
+    height: 16.95rem;
+    background: url("../images/bgPic_01.png") center no-repeat;
+    background-size: cover;
+}
+header>div:nth-child(1){
+    margin: 0 auto;
+    width: 17.7rem;
+    height: 1.55rem;
+    background: url("../images/titleBoxTop.png") center no-repeat;
+    background-size: cover;
+}
+header>div:nth-child(2){
+    margin: 0 auto;
+    width: 22rem;
+    height: 4.2rem;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 4.2rem;
+    color: #ffffff;
+    background: url("../images/titleBox.png") center no-repeat;
+    background-size: cover;
+}
+header div{
+    box-sizing: border-box;
+}
+header .wrapBox{
+    position: absolute;
+    top: 7.2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 33.2rem;
+    height: 46.15rem;
+    border-radius: .5rem;
+    background-color: #ffaa16;
+    z-index: 100;
+}
+header .wrapBox .middleBox{
+    margin: 0.75rem auto;
+    padding: .4rem 0;
+    width: 31.75rem;
+    height: 44.65rem;
+    border-radius: .5rem;
+    background-color: #ffffff;
+}
+header .wrapBox .middleBox .innerBox{
+    position: relative;
+    margin: 0 auto;
+    width: 31.1rem;
+    height: 43.9rem;
+    border: 2px dashed #fdc033;
+    border-radius: .5rem;
+}
+header .wrapBox .middleBox .innerBox .message{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.6rem;
+    margin: auto;
+    width: 29.5rem;
+    height: 2.25rem;
+    font-size: 1.3rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #b67606;
+    border-radius: 3rem;
+    background-color: #ffdd8e;
+}
+header .wrapBox .middleBox .innerBox .fh{
+    margin: 1.5rem auto;
+    width: 28rem;
+    height: 38.25rem;
+    overflow: scroll;
+}
+header .wrapBox .middleBox .innerBox .fh li{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 0.6rem;
+    padding-left: 0.85rem;
+    display: flex;
+    width: 28rem;
+    height: 3.9rem;
+    align-items: center;
+}
+header .wrapBox .middleBox .innerBox .fh li div:nth-child(1){
+    width: 3.9rem;
+    height: 3.9rem;
+}
+header .wrapBox .middleBox .innerBox .fh li div:nth-child(2){
+    margin: 0 8rem 0 1.3rem;
+}
+header .wrapBox .middleBox .innerBox .fh li div:nth-child(2) p:nth-child(1){
+    font-size: 1.3rem;
+    color: #fa0e1c;
+}
+header .wrapBox .middleBox .innerBox .fh li div:nth-child(2) p:nth-child(2){
+    font-size: 1.1rem;
+    color: #666666;
+}
+header .wrapBox .middleBox .innerBox .fh li div:nth-child(3){
+    position: absolute;
+    right: 2.3rem;
+    font-size: 1.5rem;
+    color: #324eea;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1),header .wrapBox .middleBox .innerBox .fh li:nth-child(2),header .wrapBox .middleBox .innerBox .fh li:nth-child(3){
+    height: 5.5rem;
+    margin-bottom: 1.25rem;
+    padding-left: 0.35rem;
+    border-radius: 5rem;
+    background-color: #eaeaea;
+}
+header .wrapBox .middleBox .innerBox .fh li div{
+    float: left;
+}
+header .wrapBox .middleBox .innerBox .fh li div img{
+    width: 100%;
+    height: 100%;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1) div:nth-child(1),header .wrapBox .middleBox .innerBox .fh li:nth-child(2) div:nth-child(1),header .wrapBox .middleBox .innerBox .fh li:nth-child(3) div:nth-child(1){
+    width: 4.85rem;
+    height: 4.85rem;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1) div:nth-child(2),header .wrapBox .middleBox .innerBox .fh li:nth-child(2) div:nth-child(2),header .wrapBox .middleBox .innerBox .fh li:nth-child(3) div:nth-child(2){
+    margin: 0 4rem 0 0.9rem;
+    height: 3.6rem;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1) div:nth-child(3),header .wrapBox .middleBox .innerBox .fh li:nth-child(2) div:nth-child(3),header .wrapBox .middleBox .innerBox .fh li:nth-child(3) div:nth-child(3){
+    font-size: 1.5rem;
+    line-height: 5rem;
+    color: #324eea;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1) div:nth-child(2) p:nth-child(1),header .wrapBox .middleBox .innerBox .fh li:nth-child(2) div:nth-child(2) p:nth-child(1),header .wrapBox .middleBox .innerBox .fh li:nth-child(3) div:nth-child(2) p:nth-child(1){
+    font-size: 2rem;
+    color: #fa0e1c;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1) div:nth-child(2) p span,header .wrapBox .middleBox .innerBox .fh li:nth-child(2) div:nth-child(2) p span,header .wrapBox .middleBox .innerBox .fh li:nth-child(3) div:nth-child(2) p span{
+    font-size: 1.5rem;
+    color: #fa0e1c;
+}
+header .wrapBox .middleBox .innerBox .fh li:nth-child(1) div:nth-child(2) p:nth-child(2),header .wrapBox .middleBox .innerBox .fh li:nth-child(2) div:nth-child(2) p:nth-child(2),header .wrapBox .middleBox .innerBox .fh li:nth-child(3) div:nth-child(2) p:nth-child(2){
+    font-size: 1.1rem;
+    color: #666666;
+}
+section{
+    width:37.5rem;
+    height: 19.7rem;
+    background: url("../images/bgPic_02.png") center no-repeat;
+    background-size: cover;
+}
+footer{
+    position: relative;
+    width: 37.5rem;
+    height: 24.3rem;
+    background-color: #fdc033;
+}
+footer>div{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 17.55rem;
+    height: 4.8rem;
+}
+footer>div span{
+    position: absolute;
+    width: 17.55rem;
+    height: 4.8rem;
+    background: url("../images/btn2-1Bg.png") center no-repeat;
+    background-size: cover;
+    z-index: 11;
+}
+footer>div div{
+    position: absolute;
+    bottom: 0.35rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 16.45rem;
+    height: 3.95rem;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3.95rem;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #2253eb;
+}
+
+/*比拼记录页列表样式*/
+header .wrapBox .middleBox .innerBox .listBox{
+    margin: 0.3rem auto 0.7rem;
+    width: 100%;
+    height: 42.85rem;
+    overflow: scroll;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    padding-left: 1.5rem;
+    width: 100%;
+    height: 4.15rem;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li:nth-child(1){
+    margin-bottom: 0;
+    padding-left: 0;
+    height: 3.8rem;
+    justify-content: center;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li:last-child{
+    margin-bottom: 0;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li:nth-child(1) span{
+    display: inline-block;
+    width: 4.25rem;
+    height: 2px;
+    background-color: #2351d7;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li:nth-child(1) i{
+    margin: 0 2rem;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #2351d7;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div{
+    box-sizing: border-box;
+    margin-right: 1rem;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div.photo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(2),header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(4){
+    box-sizing: border-box;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #414ae9;
+    border: 2px dashed #8e92f2;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(3){
+    width: 5.65rem;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(3) span{
+    display: block;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(5){
+    margin-right: 2.4rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    color: #666666;
+    background-color: #dfdfdf;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(6){
+    height: 3rem;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(6) span{
+    display: block;
+    width: 3.9rem;
+    height: 1.95rem;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.95rem;
+    color: #ffffff;
+    background: url("../images/btn2-3Bg.png") center no-repeat;
+    background-size: cover;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(6) p{
+    font-size: 1rem;
+    text-align: center;
+    color: #666666;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(3) .result.top{
+    margin-left: 1.3rem;
+    width: 3.05rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #2c50ea;
+    background: url("../images/resultBg.png") center no-repeat;
+    background-size: cover;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(3) .result.bottom{
+    margin-left: 0.95rem;
+    width: 3.65rem;
+    height: 1.05rem;
+    text-align: center;
+    line-height: 1.05rem;
+    font-size: 0.85rem;
+    color: #ffffff;
+    background-color: #245cec;
+}
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(6)
+header .wrapBox .middleBox .innerBox .listBox ul li div:nth-child(6)

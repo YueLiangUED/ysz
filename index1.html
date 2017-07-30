@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>主页</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="secTop">
+        <div id="hdgzBtn" class="hdgz">活动规则</div>
+        <div class="fuhao"></div>
+    </div>
+</header>
+<section>
+    <div class="main">
+        <div id="sz" class="shaizi sz-0"></div>
+        <div class="title">
+            <p>今日还能再掷<span id="num_1">1</span>次骰子哦！</p>
+        </div>
+        <div class="userMessage">
+            <div class="userPhoto">
+                <img src="images/photo.png" alt="用户头像">
+            </div>
+            <div class="userName">
+                <p>用户名未知</p>
+            </div>
+            <div class="userNum">
+                <p>今日点数：<span>?</span></p>
+            </div>
+        </div>
+        <div class="wanfa"></div>
+        <div id="rock" class="btn2-1">
+            <span></span>
+            <div>掷骰子</div>
+        </div>
+        <div class="text">
+            <p>邀请好友比大小，每次都有机会赢取<span>50MB</span>流量</p>
+            <p>您今日还能邀请<i>3</i>个好友</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="wrap">
+        <div class="zhuangshiL"></div>
+        <div class="zhuangshiR"></div>
+        <div class="boxWrap">
+            <div class="boxInner">
+                <div class="boxInner-inner">
+                    <div class="footerTitle">
+                        <span></span>
+                        <p>今日战绩</p>
+                        <span></span>
+                        <div class="history">
+                            以往战绩
+                        </div>
+                    </div>
+                    <ul class="list">
+                        <li class="clear">
+                            <div class="my photo">
+                                <img src="images/listPhoto.png" alt="">
+                            </div>
+                            <div class="my num">?</div>
+                            <div class="firList">
+                                <span class="btn2-2">邀请好友</span>
+                                <span class="result top">赢</span>
+                                <span class="result bottom">比大</span>
+                            </div>
+                            <div class="other num">?</div>
+                            <div class="other photo">
+                                <img src="images/listPhoto.png" alt="">
+                            </div>
+                            <div class="getWrap">
+                                <span>50MB</span>
+                                <p>不可领取</p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <div class="my photo">
+                                <img src="images/listPhoto.png" alt="">
+                            </div>
+                            <div class="my num">?</div>
+                            <div>
+                                <span class="btn2-2">邀请好友</span>
+                                <span class="result top">输</span>
+                                <span class="result bottom">比小</span>
+                            </div>
+                            <div class="other num">?</div>
+                            <div class="other photo">未知</div>
+                            <div class="getWrap">
+                                <span>50MB</span>
+                                <p>不可领取</p>
+                            </div>
+                        </li>
+                        <li class="clear">
+                            <div class="my photo">
+                                <img src="images/listPhoto.png" alt="">
+                            </div>
+                            <div class="my num">?</div>
+                            <div>
+                                <span class="btn2-2">邀请好友</span>
+                                <span class="result top">赢</span>
+                                <span class="result bottom">比大</span>
+                            </div>
+                            <div class="other num">1</div>
+                            <div class="other photo">
+                                <img src="images/listPhoto.png" alt="">
+                            </div>
+                            <div class="getWrap active">
+                                <span>50MB</span>
+                                <p>可领取</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--遮罩层-->
+<div id="mask" class="mask"></div>
+<!--活动规则弹窗-->
+<div class="tc hdgz">
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">活动规则</div>
+    <div class="text">
+        <p>
+            活动时间：XXX——XXX <br>
+            游戏规则：<br>
+            1. 任何用户皆可参与游戏；<br>
+            2. 怎么玩？掷骰子，得到点数之后，将游戏页面分享给好友，好友进入游戏页面掷骰子，与你比大小。赢家每局可获得50M流量；<br>
+            3.活动期间，每位用户每天仅能掷1次骰子，每次仅能邀请3位好友比大小；<br>
+            4. 活动奖励：用户参与游戏，所获奖励不固定，不保证一定有奖励。每次比大小都有机会获取50M流量，活动一共持续7天；流量随时可领取，活动结束后若未领取，则视为放弃奖励；流量可直接提取，无需下载任何 <br>
+        </p>
+    </div>
+    <div class="tcBtn-1 xx">取消</div>
+</div>
+<!--游戏玩法弹窗-->
+<div class="tc tc2 tc-wanfa">
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">游戏玩法</div>
+    <div class="tcText">
+        <p>
+            掷骰子，得到点数之后，将游戏页面分享给好友，好友进入游戏页面掷骰子，与你比大小。赢家每局可获得50M流量；
+        </p>
+    </div>
+    <div class="tcBtn-1 xx">知道啦</div>
+</div>
+<!--邀请好友比大小弹窗-->
+<div class="tc tc2 tc-yq">
+    <div class="people"></div>
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">恭喜你</div>
+    <div class="tcText">
+        <p>
+            今日点数为&nbsp;<span id="tcNum"></span><br>您真是掷骰子的高手
+        </p>
+    </div>
+    <div id="tcyq" class="tcBtn-1 yq">邀请好友比大小</div>
+</div>
+<!--领取流量弹窗-1 -->
+<div class="tc tc2 tc-ll one">
+    <div class="people"></div>
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">领取流量</div>
+    <div class="tcText clear">
+        <p>
+            您当前可领取&nbsp;<span>500MB</span>&nbsp;流量<br>是否现在领取
+        </p>
+    </div>
+    <div class="dxBtnBox">
+        <span id="tcqx">取消</span><!--
+        --><span id="tcllqd">确定</span>
+    </div>
+</div>
+<!--领取流量弹窗-2 -->
+<div class="tc tc2 tc-ll two">
+    <div class="people"></div>
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">恭喜您</div>
+    <div class="tcText clear">
+        <p>
+            您已成功领取&nbsp;<span>500MB</span>&nbsp;安心用本地流量<br>流量将于一周内充入您的账户！
+        </p>
+    </div>
+    <div class="tcBtn-1 ll" id="tcert">确定</div>
+</div>
+<!--分享浮层-->
+<div class="fenxiang">
+    <div></div>
+    <p>
+        诚意比大小，拒绝互相伤害。<br>
+        宝贝，将活动页面发给好友，与好友比大小<br>
+        即有机会赢取<span>50MB</span>流量。
+    </p>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>

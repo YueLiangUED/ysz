@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>好友掷骰子页</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<header></header>
+<section>
+    <div class="message">
+        <img class="xx" src="images/photo.png" alt="">
+        <p>老铁，我掷了<span>X</span>点<br>敢来和我比大小吗？</p>
+    </div>
+    <div class="dxBox">
+        <div class="panzi l">
+            <img src="images/wenhao.png" alt="">
+        </div>
+        <div class="bdx">
+            <span id="dx">?</span>
+        </div>
+        <div class="panzi r">
+            <img src="images/wenhao.png" alt="">
+        </div>
+    </div>
+    <div class="name">
+        <p>热情奔放的小羊</p>
+        <div id="biBtn" class="bdxBtn"></div>
+        <p id="hyName"></p>
+    </div>
+</section>
+<footer>
+    <div class="zhuangshiL"></div>
+    <div class="zhuangshiR"></div>
+    <div class="wrapBox">
+        <div class="middleBox">
+            <div class="innerBox">
+                <div class="text">
+                    <p><span>活动时间：</span>2017年8月1日—8月30日</p>
+                    <p><span>游戏规则：</span></p>
+                    <p>1. 任何用户皆可参与游戏；</p>
+                    <p>2. 怎么玩？掷骰子，得到点数之后，将游戏页面分享给好友，好友进入游戏页面掷骰子，与你比大小。赢家每局可获得50M流量；</p>
+                    <p>3.活动期间，每位用户每天仅能掷1次骰子，每次仅能邀请3位好友比大小；</p>
+                    <p>4. 活动奖励：用户参与游戏，所获奖励不固定，不保证一定有奖励。每次比大小都有机会获取50M流量，</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wywBtn"></div>
+</footer>
+<div id="mask" class="mask"></div>
+<!--比大小弹窗-1 -->
+<div class="tc tc2 tc-dx one">
+    <div class="people"></div>
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">本次比点</div>
+    <div class="tcText clear">
+        <p>
+            老铁，你掷到&nbsp;<span class="hyNum"></span>&nbsp;点
+        </p>
+        <div class="small box">小</div>
+        <div class="big box">大</div>
+    </div>
+    <div id="cdxBtn" class="tcBtn-1 yq">点击抽选大小</div>
+</div>
+<!--比大小弹窗-2 -->
+<div class="tc tc2 tc-dx two">
+    <div class="people"></div>
+    <div class="tcClose"></div>
+    <div class="tcLine"></div>
+    <div class="tcBg"></div>
+    <div class="tcTitle">本次比点</div>
+    <div class="tcText clear">
+        <p>
+            老铁，你掷到&nbsp;<span class="hyNum"></span>&nbsp;点
+        </p>
+        <div class="small box">小</div>
+        <div class="big box act">大</div>
+        <i>“小丹儿”略胜一筹</i>
+    </div>
+    <div class="dxBtnBox">
+        <span class="queding">确定</span><!--
+        --><span class="wywBtn">我也要玩</span>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>

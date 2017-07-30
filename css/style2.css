@@ -1,0 +1,514 @@
+header{
+    width: 37.5rem;
+    height: 15.45rem;
+    background: url("../images/secBg_01.png") center no-repeat;
+    background-size: cover;
+}
+section{
+    box-sizing: border-box;
+    padding-top: 1.25rem;
+    width: 37.5rem;
+    height: 18.7rem;
+    background: url("../images/haoyouMiddleBg_02.png") center no-repeat;
+    background-size: cover;
+}
+section .message{
+    display: flex;
+    margin: 0 auto;
+    width: 37.5rem;
+    height: 3.55rem;
+    align-items: center;
+    justify-content: center;
+}
+section .message .xx{
+    margin-right: 2rem;
+    width: 3.55rem;
+    height: 3.55rem;
+}
+section .message p{
+    font-size: 1.6rem;
+    color: #ffffff;
+    line-height: 1.8rem;
+}
+section .message p span{
+    font-size: 2rem;
+    color: #fce033;
+}
+section .dxBox{
+    display: flex;
+    margin-top: 3.5rem;
+    width: 37.5rem;
+    justify-content: center;
+}
+section .dxBox .panzi{
+    position: relative;
+    width: 9.95rem;
+    height: 6rem;
+    background: url("../images/panzi.png") center no-repeat;
+    background-size: cover;
+}
+section .dxBox .panzi img{
+    position: absolute;
+    top: -1.25rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 4.75rem;
+    height: 5.85rem;
+}
+section .dxBox .bdx{
+    position: relative;
+    margin: 1.5rem 0.9rem 0;
+    width: 8.6rem;
+    height: 5.3rem;
+    background: url("../images/bidaxiao.png") center no-repeat;
+    background-size: cover;
+}
+section .dxBox .bdx span{
+    position: absolute;
+    top: 0;
+    right: 1.3rem;
+    width: 3rem;
+    height: 5.3rem;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 5.3rem;
+    color: #2351d7;
+}
+section .name{
+    position: relative;
+    display: flex;
+    height: 2.8rem;
+    justify-content: center;
+    align-items: center;
+}
+section .name p{
+    position: absolute;
+    font-size: 1.1rem;
+    color: #2253eb;
+}
+section .name p:nth-child(1){
+    left: 4rem;
+}
+section .name p:nth-child(3){
+    right: 4rem;
+}
+section .name .bdxBtn{
+    position: absolute;
+    right: 3.5rem;
+}
+section .name .bdxBtn{
+    width: 10.45rem;
+    height: 2.85rem;
+    background: url("../images/biyibiBtn.png") center no-repeat;
+    background-size: cover;
+}
+footer{
+    position: relative;
+    width: 37.5rem;
+    height: 26.8rem;
+    background-color: #fdc033;
+}
+footer .zhuangshiL,footer .zhuangshiR{
+    position: absolute;
+    top: 1.9rem;
+    height: 2.65rem;
+}
+footer .zhuangshiL{
+    left: 0;
+    width: 2.1rem;
+    background: url("../images/zhuangshiL.png") center no-repeat;
+    background-size: cover;
+}
+footer .zhuangshiR{
+    right: 0;
+    width: 2.2rem;
+    background: url("../images/zhuangshiR.png") center no-repeat;
+    background-size: cover;
+}
+footer div{
+    box-sizing: border-box;
+}
+footer .wrapBox{
+    margin: 0 auto;
+    padding: 0.75rem 0;
+    width: 33.2rem;
+    height: 19.2rem;
+    border-radius: .5rem;
+    background-color: #ffaa16;
+    z-index: 100;
+}
+footer .wrapBox .middleBox{
+    margin: 0 auto;
+    padding: .4rem 0;
+    width: 31.75rem;
+    height: 17.7rem;
+    border-radius: .5rem;
+    background-color: #ffffff;
+}
+footer .wrapBox .middleBox .innerBox{
+    margin: 0 auto;
+    width: 31.1rem;
+    height: 16.9rem;
+    border: 2px dashed #fdc033;
+    border-radius: .5rem;
+}
+footer .wrapBox .middleBox .innerBox .text{
+    overflow: scroll;
+    margin: 0.6rem auto;
+    width: 28.25rem;
+    height: 15.9rem;
+}
+footer .wrapBox .middleBox .innerBox .text p{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #2351d7;
+}
+footer .wrapBox .middleBox .innerBox .text p span{
+    font-weight: bold;
+}
+footer .wywBtn{
+    margin: 1.8rem auto;
+    width: 16.85rem;
+    height: 3.9rem;
+    background: url("../images/woyeyaowan.png") center no-repeat;
+    background-size: cover;
+}
+
+/*好友结果页*/
+section .message img{
+    width: 5rem;
+    height: 5rem;
+}
+section .message div{
+    margin: 1.5rem 3.7rem 0 3.7rem;
+    width: 7.4rem;
+    height: 6.55rem;
+    background: url("../images/VS.png") center no-repeat;
+    background-size: cover;
+}
+footer .wrapBox .middleBox .innerBox .win.text p:nth-child(1),footer .wrapBox .middleBox .innerBox .lose.text p:nth-child(1){
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    line-height: 7rem;
+    text-align: center;
+    color: #ff484d;
+}
+footer .wrapBox .middleBox .innerBox .lose.text p:nth-child(1){
+    color: #2351d7;
+}
+footer .wrapBox .middleBox .innerBox .lose.text{
+    display: none;
+}
+footer .wrapBox .middleBox .innerBox .win.text p:nth-child(2),footer .wrapBox .middleBox .innerBox .lose.text p:nth-child(2){
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2351d7;
+}
+footer .wrapBox .middleBox .innerBox .win.text p span{
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #fda028;
+}
+
+
+/*遮罩层*/
+.mask{
+    position: absolute;
+    top: 0px;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 100;
+    left: 0px;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+}
+.tc.hdgz{
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-sizing: border-box;
+    width: 29rem;
+    height: 36.7rem;
+    border-radius: 0.5rem;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.tc .tcClose{
+    position: absolute;
+    top: -7.1rem;
+    right: 1.75rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    background: url("../images/tcCloseBg.png") center no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+.tc .tcLine{
+    position: absolute;
+    right: 3.2rem;
+    top: -4.1rem;
+    width: 2px;
+    height: 4.1rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc .tcBg{
+    position: absolute;
+    top: -10rem;
+    left: -4.225rem;
+    width: 37.45rem;
+    height: 24.5rem;
+    background: url("../images/tc-hdgz.png") center no-repeat;
+    background-size: cover;
+    z-index: 990;
+}
+.tc .tcTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 4rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    color: #ffffff;
+    background-color: #304fea;
+    z-index: 999;
+}
+.tc .text{
+    box-sizing: border-box;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    padding: 0.75rem 2.5rem;
+    overflow: scroll;
+    width: 29rem;
+    height: 26.75rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc .text p{
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+.tc .tcBtn-1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 1.2rem;
+    width: 8.8rem;
+    height: 3.15rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 3.15rem;
+    color: #ffffff;
+    background: url("../images/tcBtnBg-blue.png") center no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+.tc.tc2{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 20%;
+    box-sizing: border-box;
+    margin: auto;
+    width: 26.5rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    z-index: 999;
+    background-color: #ffffff;
+}
+.tc.tc2 .tcClose{
+    right: 0.5rem;
+}
+.tc.tc2 .tcLine{
+    right: 1.9rem;
+}
+.tc.tc2 .tcBtn-1{
+    bottom: 2rem;
+}
+.tc.tc2 .tcText{
+    position: absolute;
+    top: 4rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 16rem;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #000000;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: #ffffff;
+    z-index: 999;
+}
+.tc.tc-wanfa .tcText{
+    padding: 2rem 1.5rem;
+    line-height: 2.5rem;
+}
+.tc.tc-wanfa{
+    display: none;
+}
+.tc.tc-yq .tcText{
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 4rem;
+    letter-spacing: 5px;
+}
+.tc .tcText p span{
+    font-size: 2rem;
+    color: #ff1e1e;
+}
+.tc.tc-yq .tcBtn-1.yq{
+    width: 12.5rem;
+    background: url("../images/tc-yqBtn.png") center no-repeat;
+    background-size: cover;
+}
+.tc .people{
+    position: absolute;
+    top: -9.7rem;
+    left: 1.4rem;
+    z-index: 998;
+    width: 20.85rem;
+    height: 9.7rem;
+    background: url("../images/yqPeo.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-yq{
+    display: none;
+    top: 25%;
+}
+.tc.tc-dx{
+    top: 25%;
+}
+.tc.tc-dx .tcText{
+    padding: 0.5rem 5.25rem;
+    text-align: center;
+    line-height: 3rem;
+}
+.tc.tc-dx .tcText .box{
+    float: left;
+    width: 4.4rem;
+    height: 4.4rem;
+    border: 2px dashed #304fea;
+    font-size: 2.1rem;
+    text-align: center;
+    line-height: 4.4rem;
+    color: #1234df;
+}
+.tc.tc-dx .tcText .box.act{
+    color: #ffffff;
+    background-color: #304fea;
+}
+.tc.tc-dx .tcText .small{
+    margin-right: 6.8rem;
+}
+.tc.tc-dx .people{
+    top: -10.1rem;
+    height: 10.1rem;
+    background: url("../images/dxPeo_01.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-dx.one{
+    display: none;
+}
+.tc.tc-dx.two{
+    display: none;
+}
+.tc.tc2 .tcText i{
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
+    color: #304fea;
+}
+.tc.tc2 .dxBtnBox{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 20.05rem;
+    bottom: 2rem;
+    z-index: 999;
+}
+.tc.tc2 .dxBtnBox span{
+    display: inline-block;
+    width: 8.8rem;
+    height: 3.15rem;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 3.15rem;
+    color: #ffffff;
+}
+.tc.tc2 .dxBtnBox span:first-child{
+    margin-right: 2.3rem;
+    background: url("../images/tcBtnBg-blue.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc2 .dxBtnBox span:last-child{
+    background: url("../images/dxBtnBg-red.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-ll .tcText{
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.tc.tc-ll .people{
+    top: -10.1rem;
+    height: 10.1rem;
+    background: url("../images/llPeo.png") center no-repeat;
+    background-size: cover;
+}
+.tc.tc-ll{
+    top: 25%;
+}
+.tc.tc-ll.one{
+    display: none;
+}
+.tc.tc-ll.two{
+    display: none;
+}
+.tc.tc-ll.two .tcBtn-1.ll{
+    background: url("../images/dxBtnBg-red.png") center no-repeat;
+    background-size: cover;
+}
+
+.fenxiang{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.7rem;
+    width: 22.5rem;
+    height: 35rem;
+    text-align: center;
+    z-index: 999;
+}
+.fenxiang div{
+    position: absolute;
+    top: 0;
+    left: 2.5rem;
+    width: 22.7rem;
+    height: 29.4rem;
+    background: url("../images/fenxiang.png") center no-repeat;
+    background-size: cover;
+}
+.fenxiang p{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.fenxiang p span{
+    font-size: 1.4rem;
+    color: #f0c24d;
+}
