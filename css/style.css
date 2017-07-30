@@ -217,6 +217,7 @@ section .main .text{
 }
 section .main .text p{
     font-size: 1.2rem;
+    line-height: 1.5rem;
     text-align: center;
     color: #2652eb;
 }
