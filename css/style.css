@@ -282,7 +282,7 @@ footer .wrap .boxWrap .boxInner .boxInner-inner{
 }
 footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle{
     position: relative;
-    margin: 1rem auto;
+    margin: 1rem auto 0.5rem;
     width: 16.3rem;
     text-align: center;
 }
