@@ -54,9 +54,17 @@ $(function () {
         $("#mask").css("width",$(document).width());
         $("#mask").show();
     }
+    function showMask1(){
+        $("#mask1").css("height",$(document).height());
+        $("#mask1").css("width",$(document).width());
+        $("#mask1").show();
+    }
     //隐藏遮罩层
     function hideMask(){
         $("#mask").hide();
+    }
+    function hideMask1(){
+        $("#mask1").hide();
     }
 
     //主页掷骰子
@@ -85,13 +93,18 @@ $(function () {
     //主页邀请好友按钮
     $('.btn2-2').on('click',function () {
         $('.fenxiang').fadeIn();
-        showMask();
+        showMask1();
+    });
+    //分享遮罩层点击消失
+    $('#mask1').on('click',function () {
+        $('.fenxiang').fadeOut();
+        hideMask1();
     });
     //弹窗邀请按钮
     $('#tcyq').on('click',function () {
         $(this).parent().fadeOut();
         $('.fenxiang').fadeIn();
-        showMask();
+        showMask1();
     });
     //主页领取流量
     $('.getWrap.active').on('click',function () {
@@ -113,7 +126,16 @@ $(function () {
         $(this).parent().fadeOut();
         hideMask();
     });
-
+    //主页输赢颜色
+    window.setInterval(function () {
+        $('.list li .win-los .result.top').each(function (index,ele) {
+            if(ele.innerText == '赢'){
+                ele.style.color = '#f92b31';
+            }else if(ele.innerText == '输'){
+                ele.style.color = '#2c50ea';
+            }
+        });
+    },0);
     //好友页我也要玩按钮跳转到首页
     $('.wywBtn').on('click',function () {
         window.location.href = 'index.html';
