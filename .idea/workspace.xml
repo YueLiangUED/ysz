@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57009b78-ff26-4f6b-81a9-6fdb0505b67b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index1.html" afterPath="$PROJECT_DIR$/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-    </list>
+    <list default="true" id="57009b78-ff26-4f6b-81a9-6fdb0505b67b" name="Default" comment="" />
     <ignored path="掷骰子.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -324,12 +320,12 @@
       <workItem from="1501038704732" duration="17915000" />
       <workItem from="1501140149324" duration="21294000" />
       <workItem from="1501227296832" duration="30662000" />
-      <workItem from="1501480213363" duration="3807000" />
+      <workItem from="1501480213363" duration="3872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75460000" />
+    <option name="totallyTimeSpent" value="75525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1232" height="777" extended-state="6" />
