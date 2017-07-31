@@ -82,6 +82,7 @@ $(function () {
             $sz.removeClass("sz-e").addClass("sz-" + num);
             $('.userNum').html("<p>今日点数：<span>" + num + "</span>");
             $('#rock').addClass('default');
+            $('#rock div').text('明日再来');
             $('.my.num').text(num);
             $('#tcNum').text(num);
             $('#num_1').text('0');
