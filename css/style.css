@@ -720,15 +720,15 @@ footer .wrap .boxWrap .boxInner .boxInner-inner .list div.firList .result{
     right: 0;
     margin: auto;
     top: 3.7rem;
-    width: 22.5rem;
-    height: 35rem;
+    width: 28rem;
+    height: 37rem;
     text-align: center;
     z-index: 999;
 }
 .fenxiang div{
     position: absolute;
     top: 0;
-    left: 2.5rem;
+    left: 7rem;
     width: 22.7rem;
     height: 29.4rem;
     background: url("../images/fenxiang.png") center no-repeat;
