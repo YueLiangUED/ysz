@@ -277,7 +277,7 @@ footer .wrap .boxWrap .boxInner .boxInner-inner{
     margin: 0 auto;
     width: 31.15rem;
     height: 19rem;
-    border: 3px dashed #fdc033;
+    border: 2px dashed #fdc033;
     border-radius: 1rem;
 }
 footer .wrap .boxWrap .boxInner .boxInner-inner .footerTitle{
@@ -445,7 +445,7 @@ footer .wrap .boxWrap .boxInner .boxInner-inner .list div.firList .result{
     -moz-opacity: 0.6;
 }
 /*分享遮罩层*/
-.mask1{
+.mask_1{
     position: absolute;
     top: 0px;
     filter: alpha(opacity=80);

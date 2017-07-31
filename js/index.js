@@ -55,16 +55,16 @@ $(function () {
         $("#mask").show();
     }
     function showMask1(){
-        $("#mask1").css("height",$(document).height());
-        $("#mask1").css("width",$(document).width());
-        $("#mask1").show();
+        $("#mask_1").css("height",$(document).height());
+        $("#mask_1").css("width",$(document).width());
+        $("#mask_1").show();
     }
     //隐藏遮罩层
     function hideMask(){
         $("#mask").hide();
     }
     function hideMask1(){
-        $("#mask1").hide();
+        $("#mask_1").hide();
     }
 
     //主页掷骰子
@@ -95,16 +95,17 @@ $(function () {
         $('.fenxiang').fadeIn();
         showMask1();
     });
-    //分享遮罩层点击消失
-    $('#mask1').on('click',function () {
-        $('.fenxiang').fadeOut();
-        hideMask1();
-    });
     //弹窗邀请按钮
     $('#tcyq').on('click',function () {
         $(this).parent().fadeOut();
         $('.fenxiang').fadeIn();
+        hideMask();
         showMask1();
+    });
+    //分享遮罩层点击消失
+    $('#mask_1').on('click',function () {
+        $('.fenxiang').fadeOut();
+        hideMask1();
     });
     //主页领取流量
     $('.getWrap.active').on('click',function () {
